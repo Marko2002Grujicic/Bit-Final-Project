@@ -4,11 +4,18 @@
   <h1 align="center">Interview Reports</h1>
 
   <h3 align="center">
-   A web application for viewing and managing candidate reports
+   A web application for viewing and managing candidate reports.
   </h3>
  <br />
- 
- ### Click here for live demo   <a href="https://myshows.netlify.app">Interview Reports</a>
+
+![Preview](./Home.png)
+Home page where all candidates are shown.
+
+![Preview](./Reports.png)
+Reports page where list of all reports are shown.
+
+![Preview](./CreateReports.jpg)
+Create report wizard.
 
 </p>
 
