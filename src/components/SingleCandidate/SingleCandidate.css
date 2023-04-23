@@ -1,0 +1,84 @@
+.info-container {
+  padding-top: 3%;
+  width: 100%;
+}
+
+#title {
+  font-size: 2em;
+  margin-left: 8%;
+  margin-top: 3%;
+}
+
+.candidate-image {
+  padding: 5%;
+  height: auto;
+  width: 50%;
+  height: 50%;
+}
+
+.email-container,
+.edu-container {
+  margin-top: 15%;
+  padding-left: 5%;
+}
+
+.name-container,
+.dob-container {
+  padding-left: 5%;
+  padding-right: 15%;
+}
+
+.subtitle {
+  font-size: 1.1eem;
+  color: #95a5a6;
+}
+
+.info {
+  font-size: 1.5em;
+  text-indent: 1.5em;
+}
+
+.table-container {
+  width: 100%;
+  border: 1px solid #95a5a6;
+}
+
+.table-heading {
+  background-color: #19b5fe;
+  color: white;
+}
+
+.status {
+  width: 270px;
+}
+
+.td {
+  padding: 10px 5px;
+}
+
+.eye-icon {
+  width: 100%;
+}
+
+.modalUp {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.openModalBtn:hover {
+  cursor: pointer;
+}
+
+.modalUp > table > tbody > .table-border {
+  background: rgb(85, 85, 85);
+}
+
+#margin-bottom {
+  margin-bottom: 0;
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 410px) {
+  .info {
+    font-size: 1.2em;
+  }
+}

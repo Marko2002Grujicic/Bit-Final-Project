@@ -1,0 +1,27 @@
+.icon {
+  color: #2196f3;
+}
+.changedWidth {
+  width: 60%;
+  height: 50%;
+  padding: 10px;
+}
+#searchWrapper {
+  height: 100vh;
+}
+
+@media (max-width: 480px) {
+  #search::placeholder {
+    font-size: 11px;
+  }
+}
+@media (max-width: 380px) {
+  #search::placeholder {
+    font-size: 9px;
+  }
+}
+@media (max-width: 320px) {
+  #search::placeholder {
+    font-size: 8px;
+  }
+}

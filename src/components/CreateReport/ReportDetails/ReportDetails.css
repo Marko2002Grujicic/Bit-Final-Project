@@ -1,0 +1,28 @@
+.details-container {
+    margin-top: 10%;
+    width: 100%;
+}
+
+.buttons-container {
+    width: 100%;
+}
+
+select {
+    display: block;
+}
+
+#back,
+#submit {
+    width: auto;
+}
+
+#date,
+option {
+    font-size: 0.9em;
+    padding: 1px;
+}
+
+.invalid-input {
+    color: #CF3A24;
+    font-size: 0.9em;
+}
