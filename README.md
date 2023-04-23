@@ -51,12 +51,15 @@ I'm using Interviews-Reports Api to get candidate information.
 Regarding interviews reports API you will be using a local web server. Complete API which is
 needed for developing your tasks can be found at: https://github.com/nenadbugaric/interviews-reports-api-mock/
 
-### Setup instructions:
+## Setup instructions:
 
-git clone https://github.com/nenadbugaric/interviews-reports-api-mock/
-git checkout auth-client
-npm install
-npm start
+### git clone https://github.com/nenadbugaric/interviews-reports-api-mock/
+
+### git checkout auth-client
+
+### npm install
+
+### npm start
 
 ## Available Scripts
 
