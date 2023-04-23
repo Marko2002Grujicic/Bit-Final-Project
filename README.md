@@ -53,13 +53,13 @@ needed for developing your tasks can be found at: https://github.com/nenadbugari
 
 ## Setup instructions:
 
-### git clone https://github.com/nenadbugaric/interviews-reports-api-mock/
+### `git clone https://github.com/nenadbugaric/interviews-reports-api-mock/`
 
-### git checkout auth-client
+### `git checkout auth-client`
 
-### npm install
+### `npm install`
 
-### npm start
+### `npm start`
 
 ## Available Scripts
 
