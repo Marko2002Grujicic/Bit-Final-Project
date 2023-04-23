@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+<!-- PROJECT LOGO -->
+<p align="center">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <h1 align="center">Interview Reports</h1>
+
+  <h3 align="center">
+   A web application for viewing and managing candidate reports
+  </h3>
+ <br />
+ 
+ ### Click here for live demo   <a href="https://myshows.netlify.app">Interview Reports</a>
+
+</p>
+
+### About The Project:
+
+Interview Reports is a web application for viewing and managing candidate reports. The application was built using React and the project setup was created using create-react-app.
+
+### The common funtionalities are:
+
+- The user can see all the candidates available in database and their information
+- The user can navigate to a single candidate report page where reports from a single candidate can be viewed by clicking on the candidate card.
+- Clicking on eye icon on single candidate report page will open a modal that will provide detailed report info.
+- The user can search candidates by name.
+- The user can see and use Administrative Panel Application consisting of a Report List and a Submit Report page.
+- The user has an option to delete a report by clicking the 'delete' icon on the report item.
+- The user can go trough report wizard to create new reports by clicking the "+" button.
+
+I'm using Interviews-Reports Api to get candidate information.
+
+### Built With
+
+- #### React
+- #### Materialize
+- #### TvMaze API
+
+### Key concepts:
+
+- #### React components
+- #### React state and props
+- #### React hooks
+- #### Materialize CSS
+- #### Fetching data from an API
+- #### Handling events
+- #### String manipulation
+- #### Filtering data
+- #### JavaScript Object Oriented Programming
+
+# Getting Started
+
+Regarding interviews reports API you will be using a local web server. Complete API which is
+needed for developing your tasks can be found at: https://github.com/nenadbugaric/interviews-reports-api-mock/
+
+### Setup instructions:
+
+git clone https://github.com/nenadbugaric/interviews-reports-api-mock/
+git checkout auth-client
+npm install
+npm start
 
 ## Available Scripts
 
-In the project directory, you can run:
+### To install necessary dependencies:
+
+### `npm i`
+
+### To run project:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### To build project:
 
 ### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
